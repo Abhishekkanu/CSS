@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<style>
+    a[target="_top"] {
+        background-color: yellow;
+    }
+
+    a[target="_bottom"] {
+        background-color: rgb(164, 93, 209);
+    }
+
+    body{
+        color: purple;
+    }
+
+    div{
+        background: #cdaeae;
+        padding: 15px;
+        border: 10px solid currentColor;
+        box-shadow: 1px 1px 20px currentColor;
+        font-size: large;
+        /* height: 100px; */
+        /* height: 10vh; */
+
+    }
+
+</style>
+
+<body>
+    <!-- Attribute selector -->
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    <br>
+    <a href="http://www.google.com" target="_bottom">GOOGLE</a>
+    <br> <br>
+
+    <!-- Class selector -->
+    <div class="ak"> HELLO
+        <div class="ag">ABHI
+            <div class="ak">KANU</div>
+        </div>
+    </div>
+
+    <!-- css specificity -->
+    <p id="demo" class="test" style="color: pink;">abhishek kanu</p>
+
+    <!-- css curerntcolor keyword -->
+     <h2>THE CONNECTOR</h2>
+     <p>this is same text</p>
+
+    <div>
+       <p>this div background color is set</p>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+
+*{
+    margin: 100;
+    padding: 100;
+}
+
+.ak{
+    background: #af2424;
+    color: aqua;
+}
+
+.ak .ag{
+    background: #36e39b;
+    color: black;
+}
+
+/* #demo{color:rgb(255, 127, 7)}
+.test{color: blueviolet;}
+p{color: red;} */
+
+
